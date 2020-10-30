@@ -59,21 +59,52 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+/* HEADER OF THE PAGE */
+
 header nav{
     display:flex;
+    margin-top:2%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:2%
 
 }
-
-nav a{
-    color:black;
-    text-decoration:none;
-    width: 15%;
-    
+nav a{ color:black;
+    text-decoration: none;
+    width:15%;
     display:flex;
     justify-content:space-evenly;
+    align-items:flex-end;   
+}
+.top-of-page-image{
+    display:flex;
+    justify-content:center;
+    margin: 3% 0;
+}
+
+/* Here I was trying to add DIVS to the HTML */
+/* header nav{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+nav .links{
+    display:flex;
+    justify-content:space-between;
+}
+
+.links a{
+    color:black;
+    text-decoration:none;
+    display:flex;
     align-items:flex-end;
-    
-} 
+    justify-content: space-between;
+    border: 1px solid red;
+}  */
+
+
+/* BODY OF THE PAGE */
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -129,6 +160,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1{
+    background:teal;
+}
+.middle-content .boxes .box2{
+    background:gold;
+}
+.middle-content .boxes .box3{
+    background:cadetblue;
+}
+.middle-content .boxes .box4{
+    background:coral;
+}
+.middle-content .boxes .box5{
+    background:crimson;
+}
+.middle-content .boxes .box6{
+    background:forestgreen;
+}
+.middle-content .boxes .box7{
+    background:darkorchid;
+}
+.middle-content .boxes .box8{
+    background:hotpink;
+}
+.middle-content .boxes .box9{
+    background:indigo;
+}
+.middle-content .boxes .box10{
+    background:dodgerblue;
 }
 
 .bottom-content {
